@@ -13,6 +13,6 @@ Here are the projects I've worked on during grad school.
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% for post in site.projects reversed %}
   {% include archive-single.html %}
 {% endfor %}
