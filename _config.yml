@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Youlin Liu's personal page"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Youlin Liu"
+description              : &description "PhD in Analytical Chemistry at Purdue University"
+url                      : https://yliu0593.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "yliu0593/yliu0593.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Youlin Liu"
-  avatar           : "profile_yliu.png"
-  bio              : #"Your biography for the left-hand sidebar"
-  location         : "Purdue University"
+  avatar           : "profile.png"
+  bio              : "Graduate Researcher at Purdue University, seeking industrial position in pharma to solve problems with data-driven approaches"
+  location         : "West Lafayette"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
@@ -99,7 +99,7 @@ author:
   github           : "yliu0593"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "yliu0593"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/youlin-liu-5517b2120"
