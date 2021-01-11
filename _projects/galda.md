@@ -5,4 +5,4 @@ type: "Projects"
 permalink: /projects/galda
 ---
 
-This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
+The objective of of GALDA is to use the simple LDA tool for better use in the field 
