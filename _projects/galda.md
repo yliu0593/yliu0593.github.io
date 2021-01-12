@@ -6,6 +6,8 @@ permalink: /projects/galda
 ---
 
 
+![](../images/galda-concept.png)
+
 
 ![](images/galda-concept.png)
 
