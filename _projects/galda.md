@@ -15,7 +15,7 @@ permalink: /projects/galda
 - For example, the figure below shows the Raman spectra of clopidogrel where classes 1, 2 and 3 denote polymorph I, polymorph II, and background respectively.
 
 
-![Raman spec of Clopidogrel](/images/galda-raman.png)
+![Raman spec of Clopidogrel](/images/galda-raman.jpg)
 
 
 - When analyzing high-dimensional data, they are prone to be overfitted when using traditional LDA. As shown on the left:  the training data (open dots) don’t represent the distribution of the testing data (solid dots).
@@ -33,10 +33,15 @@ permalink: /projects/galda
 ![Concept of GALDA](/images/galda-concept.png)
 
 a) Raw data from three different classes
+
 a) → b) performs traditional three-class LDA
+
 b) → c) generates random noisy meaningless spectra
+
 c) → d) calculates masks for the generated spectra such that they classify as targeted classes
+
 d) → e) performs four-class LDA
+
 e) → c) generates next generation of random noisy meaningless spectra
 
 # Results
