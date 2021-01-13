@@ -20,8 +20,9 @@ I am a highly motivated, problem solving driven chemist who also understand scri
 - Troubleshoot why electronics don't work in the third-floor system
 - Collect data and analyze the factors, correlations between factors
 - Write bugs and debug them
+- Catching up with whats new in ML and debating whether people should stick to good old chemometrics
 - Typesetting, Latexing
-- Play the guitar and write songs
+- Play the guitar and [write songs](https://www.instagram.com/yliu0593/)
 
 
 

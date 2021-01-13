@@ -11,19 +11,14 @@ permalink: /projects/high-special
 
 ## Motivation
 
-Combining IR spectroscopy (chemical information) and visible imaging
-
-
-# The microscope
-
-![The microscope](/images/qcl-sys.png)
+Combining IR spectroscopy (chemical information) and visible imaging (higher resolution than IR)
 
 
 # Image segmentation demonstrated with silica beads
 
 The segmentation was done using the watershed algorithm using open cv2.
 
-![The microscope](/images/qcl-bead2.png)
+![segmentation](/images/qcl-beads3.png)
 
 # Results
 
