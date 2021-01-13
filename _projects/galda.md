@@ -5,14 +5,53 @@ type: "Projects"
 permalink: /projects/galda
 ---
 
+![Cover Photo](/images/galda-concept.png)
 
 
+## Motivation
+
+- In spectral analysis, spectral data are often considered high-dimensional when the number of wavelength channels is on the order of thousands. 
+- However, meaningful features exist on only a few of these channels.
+- For example, the figure below shows the Raman spectra of clopidogrel where classes 1, 2 and 3 denote polymorph I, polymorph II, and background respectively.
+
+
+![Raman spec of Clopidogrel](/images/galda-raman.png)
+
+
+- When analyzing high-dimensional data, they are prone to be overfitted when using traditional LDA. As shown on the left:  the training data (open dots) don’t represent the distribution of the testing data (solid dots).
+
+![Overfit in spectroscopic data](/images/galda-overfit.png)
+
+- In GALDA, we solve this “prone to overfitting” problem by using an algorithm structure analogous to a GAN (generative artificial neural network). We confirmed that the “resolution” produced by GALDA is better than that of PCA or PLS-DA.
+
+# Methods
+
+- GALDA is an iterative algorithm that follows an “attack-improve-attack- improve” loop process
+- The “improve” step was done by doing a four class LDA – instead of three – to force the perturbed spectra to be classified as a fourth class.
 
 
 ![Concept of GALDA](/images/galda-concept.png)
 
+a) Raw data from three different classes
+a) → b) performs traditional three-class LDA
+b) → c) generates random noisy meaningless spectra
+c) → d) calculates masks for the generated spectra such that they classify as targeted classes
+d) → e) performs four-class LDA
+e) → c) generates next generation of random noisy meaningless spectra
 
-Generative adversareial linear discriminant analysis (GALDA) is demonstrated to enable linear discriminant analysis (LDA) with small numbers of high dimensional data sets and few classes, for which conventional LDA typically exhibits numerical instability. LDA is arguably the simplest supervised method for dimension reduction and spectral classification, retaining validity of common statistical tests lost in nonlinear analyses such as those employing artificial neural networks. Herein, we propose and develop linear generative adversarial strategies to address “overfitting” complications that commonly restrict the direct use of LDA at full rank. The generative adversarial linear discriminant analysis (GALDA) algorithm is inspired by the successes of nonlinear generative adversarial strategies routinely used to minimize overfitting in artificial neural networks. In the analysis of Raman spectra of different crystal forms of the blood thinner clopidogrel bisulfate, five-fold cross-validation of GALDA was shown to support resasonable resolution between three different spectral classes of testing data with as few as three training spectra in each class. By retention of class information, GALDA is shown to provide improvements in resolution compared to principal component analysis (PCA), even in cases for which PCA greatly outperforms conventional LDA (i.e., a small number of high-dimensional training data). The resolution improvements realized by GALDA relative to PCA in regimes hitherto inaccessible by conventional LDA may expand the use of LDA as a broadly applicable platform for linear analysis of supervised data sets. 
+# Results
+
+- Fischer’s discriminant J was used as a metric for quantifying resolution. It measures how well data points are separated in the reduced dimension.
+- Left figure shows how the resolution changes during the GALDA iterative process, which is related to “reduce over-fitting”.
+![resolution](/images/galda-resolution.png)
 
 
 
+
+We compared resolution of the reduced data, analyzed by GALDA, PCA, PLS-DA respectively. In the figure above, GALDA yields better resolution in comparison to the other two routinely used methods, especially significantly better than PLS-DA results.
+![comparison](/images/galda-comp.png)
+
+
+
+code are available at [Purdue Github](https://github.itap.purdue.edu/Simpson-Laboratory-for-Nonlinear-Optics/GALDA-public
+)
