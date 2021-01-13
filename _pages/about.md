@@ -8,11 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Thanks for stopping by! I hope this page interests you enough to earn me a video chat for a potential job position that would exercise my expertise to the best of your company. 
+Hi! Thanks for stopping by! 
+
+# Who am I 
 
 I am a highly motivated, problem solving driven chemist who also understand scripting languages. My research projects range from microscope building to data interpretation, during which I often enjoyed the process trouble-shooting, which involves pin-pointing the bug and find ways to solve. 
 
-Please see detailed project description on the other tab.
+
+# What are my passions
+
+- Troubleshoot why electronics don't work in the third-floor system
+- Collect data and analyze the factors, correlations between factors
+- Write bugs and debug them
+- Typesetting, Latexing
+- Play the guitar and write songs
+
+
 
 <!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).

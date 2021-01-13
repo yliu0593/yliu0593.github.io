@@ -6,6 +6,9 @@ permalink: /projects/high-special
 ---
 
 
+![Cover photo](/images/qcl-sys.png)
+
+
 ## Motivation
 
 Combining IR spectroscopy (chemical information) and visible imaging
@@ -30,6 +33,6 @@ Clopidogrel is a blood thinner with two different polymorphs. Their FT-IR are as
 
 The classification results:
 
-![clopidogrel](/images/qcl-clop2.png)
+![clopidogrel](/images/qcl-clop2.PNG)
 
 
