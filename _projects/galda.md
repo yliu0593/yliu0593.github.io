@@ -48,12 +48,16 @@ e) → c) generates next generation of random noisy meaningless spectra
 
 - Fischer’s discriminant J was used as a metric for quantifying resolution. It measures how well data points are separated in the reduced dimension.
 - Left figure shows how the resolution changes during the GALDA iterative process, which is related to “reduce over-fitting”.
+
+
 ![resolution](/images/galda-resolution.png)
 
 
 
 
 We compared resolution of the reduced data, analyzed by GALDA, PCA, PLS-DA respectively. In the figure above, GALDA yields better resolution in comparison to the other two routinely used methods, especially significantly better than PLS-DA results.
+
+
 ![comparison](/images/galda-comp.png)
 
 
