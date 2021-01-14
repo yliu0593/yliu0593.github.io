@@ -24,3 +24,8 @@ I am a highly motivated, problem solving driven chemist who also understand scri
 - Typesetting, Latexing
 - Play the guitar and [write songs](https://www.instagram.com/yliu0593/)
 
+
+# You should [contact me](mailto:yliu0593@gmail.com) if you are looking for
+
+- Motivated individual in experimenting and data sense-making.
+- A versatile person speaks languages of chemistry, coding and electronics.
