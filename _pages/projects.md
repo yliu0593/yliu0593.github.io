@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-Below gives a list of projects I have worked on during grad school.
+Below are my main projects. 
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
