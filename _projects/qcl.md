@@ -18,7 +18,7 @@ Combining IR spectroscopy (chemical information) and visible imaging (higher res
 
 The segmentation was done using the watershed algorithm using open cv2.
 
-![segmentation](/images/qcl-beads3.png)
+![segmentation](/images/qcl-beads3.PNG)
 
 # Results
 
