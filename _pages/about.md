@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,14 +10,13 @@ redirect_from:
 
 Hi! Thanks for stopping by! 
 
-# Who am I 
+# Who I am
 
-I am a highly motivated, problem solving driven chemist who also understand scripting languages. My research projects range from microscope building to data interpretation, during which I often enjoyed the process trouble-shooting, which involves pin-pointing the bug and find ways to solve. 
-
+I am a highly motivated, problem solving, driven chemist who also has a good understanding of scripting languages and programming languages. My research projects range from design and fabrication of custom microscopes to in-depth data analysis and interpretation. I particularly enjoy the process of trouble-shooting difficult problems.
 
 # What are my passions
 
-- Troubleshoot why electronics don't work in the [third-floor system](http://www.chem.purdue.edu/simpson/)
+- Electronics 
 - Collect data and analyze the factors, correlations between factors, a.k.a [researching](https://par.nsf.gov/servlets/purl/10209081)
 - [Write code](https://github.itap.purdue.edu/Simpson-Laboratory-for-Nonlinear-Optics/GALDA-public) and debug them
 - Catching up with whats new in ML and debating whether people should stick to good old chemometrics/multi-variate analysis
@@ -27,5 +26,5 @@ I am a highly motivated, problem solving driven chemist who also understand scri
 
 # You should [contact me](mailto:yliu0593@gmail.com) if you are looking for
 
-- Motivated individual in experimenting and data sense-making.
-- A versatile person speaks languages of chemistry, coding and electronics.
+- Motivated individual specializing in experimental design and data interpretation
+- Versatile individual who speaks the languages of chemistry, coding, and electronics. 
