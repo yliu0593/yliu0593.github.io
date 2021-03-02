@@ -19,7 +19,7 @@ I am a highly motivated, problem solving driven chemist who also understand scri
 
 - Troubleshoot why electronics don't work in the [third-floor system](http://www.chem.purdue.edu/simpson/)
 - Collect data and analyze the factors, correlations between factors, a.k.a [researching](https://par.nsf.gov/servlets/purl/10209081)
-- [Write bugs](https://github.itap.purdue.edu/Simpson-Laboratory-for-Nonlinear-Optics/GALDA-public) and debug them
+- [Write code](https://github.itap.purdue.edu/Simpson-Laboratory-for-Nonlinear-Optics/GALDA-public) and debug them
 - Catching up with whats new in ML and debating whether people should stick to good old chemometrics/multi-variate analysis
 - Typesetting, Latexing
 - Play the guitar and [write songs](https://www.instagram.com/yliu0593/)
