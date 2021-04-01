@@ -68,7 +68,7 @@ We compared resolution of the reduced data, analyzed by GALDA, PCA, PLS-DA respe
 
 <!-- ![comparison](/images/galda-comp.jpg) -->
 
-<img src="/images/galda-comp.jpg" alt="comparison" style="width:400px;"/>
+<img src="/images/galda-comp.jpg" alt="comparison" style="width:750px;"/>
 
 
 code are available at [Purdue Github](https://github.itap.purdue.edu/Simpson-Laboratory-for-Nonlinear-Optics/GALDA-public
