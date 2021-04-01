@@ -5,7 +5,7 @@ type: "Projects"
 permalink: /projects/galda
 ---
 
-![Cover Photo](/images/galda-concept.png)
+![Cover Photo](/images/galda-concept.png){width="500px"}
 
 
 ## Motivation
@@ -15,12 +15,12 @@ permalink: /projects/galda
 - For example, the figure below shows the Raman spectra of clopidogrel where classes 1, 2 and 3 denote polymorph I, polymorph II, and background respectively.
 
 
-![Raman spec of Clopidogrel](/images/galda-raman.jpg)
+![Raman spec of Clopidogrel](/images/galda-raman.jpg){width="500px"}
 
 
 - When analyzing high-dimensional data, they are prone to be overfitted when using traditional LDA. As shown on the left:  the training data (open dots) don’t represent the distribution of the testing data (solid dots).
 
-![Overfit in spectroscopic data](/images/galda-overfit.png)
+![Overfit in spectroscopic data](/images/galda-overfit.png){width="500px"}
 
 - In GALDA, we solve this “prone to overfitting” problem by using an algorithm structure analogous to a GAN (generative artificial neural network). We confirmed that the “resolution” produced by GALDA is better than that of PCA or PLS-DA.
 
@@ -30,7 +30,7 @@ permalink: /projects/galda
 - The “improve” step was done by doing a four class LDA – instead of three – to force the perturbed spectra to be classified as a fourth class.
 
 
-![Concept of GALDA](/images/galda-concept.png)
+![Concept of GALDA](/images/galda-concept.png){width="500px"}
 
 a) Raw data from three different classes
 
@@ -50,7 +50,7 @@ e) → c) generates next generation of random noisy meaningless spectra
 - Left figure shows how the resolution changes during the GALDA iterative process, which is related to “reduce over-fitting”.
 
 
-![resolution](/images/galda-resolution.png)
+![resolution](/images/galda-resolution.png){width="500px"}
 
 
 
