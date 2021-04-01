@@ -5,7 +5,8 @@ type: "Projects"
 permalink: /projects/galda
 ---
 
-![Cover Photo](/images/galda-concept.png){width="6in"}
+<!-- ![Cover Photo](/images/galda-concept.png){width="6in"} -->
+<img src="/images/galda-concept.png" alt="Cover Photo" style="width:400px;"/>
 
 
 ## Motivation
@@ -15,12 +16,14 @@ permalink: /projects/galda
 - For example, the figure below shows the Raman spectra of clopidogrel where classes 1, 2 and 3 denote polymorph I, polymorph II, and background respectively.
 
 
-![Raman spec of Clopidogrel](/images/galda-raman.jpg){width="6in"}
+<!-- ![Raman spec of Clopidogrel](/images/galda-raman.jpg){width="6in"} -->
+<img src="/images/galda-raman.jpg" alt="ORaman spec of Clopidogrel" style="width:400px;"/>
 
 
 - When analyzing high-dimensional data, they are prone to be overfitted when using traditional LDA. As shown on the left:  the training data (open dots) don’t represent the distribution of the testing data (solid dots).
 
-![Overfit in spectroscopic data](/images/galda-overfit.png){width="500px"}
+<!-- ![Overfit in spectroscopic data](/images/galda-overfit.png){width="500px"} -->
+<img src="/images/galda-overfit.png" alt="Overfit in spectroscopic data" style="width:400px;"/>
 
 - In GALDA, we solve this “prone to overfitting” problem by using an algorithm structure analogous to a GAN (generative artificial neural network). We confirmed that the “resolution” produced by GALDA is better than that of PCA or PLS-DA.
 
@@ -30,7 +33,9 @@ permalink: /projects/galda
 - The “improve” step was done by doing a four class LDA – instead of three – to force the perturbed spectra to be classified as a fourth class.
 
 
-![Concept of GALDA](/images/galda-concept.png){width="500px"}
+<!-- ![Concept of GALDA](/images/galda-concept.png){width="500px"} -->
+<img src="/images/galda-concept.png" alt="Concept of GALDA" style="width:400px;"/>
+
 
 a) Raw data from three different classes
 
@@ -50,9 +55,9 @@ e) → c) generates next generation of random noisy meaningless spectra
 - Left figure shows how the resolution changes during the GALDA iterative process, which is related to “reduce over-fitting”.
 
 
-![resolution](/images/galda-resolution.png){width="500px"}
+<!-- ![resolution](/images/galda-resolution.png){width="500px"} -->
 
-<img src="/images/galda-resolution.png" alt="resolution" style="width:500px;"/>
+<img src="/images/galda-resolution.png" alt="resolution" style="width:400px;"/>
 
 
 
@@ -61,8 +66,9 @@ e) → c) generates next generation of random noisy meaningless spectra
 We compared resolution of the reduced data, analyzed by GALDA, PCA, PLS-DA respectively. In the figure above, GALDA yields better resolution in comparison to the other two routinely used methods, especially significantly better than PLS-DA results.
 
 
-![comparison](/images/galda-comp.png)
+<!-- ![comparison](/images/galda-comp.jpg) -->
 
+<img src="/images/galda-comp.jpg" alt="comparison" style="width:400px;"/>
 
 
 code are available at [Purdue Github](https://github.itap.purdue.edu/Simpson-Laboratory-for-Nonlinear-Optics/GALDA-public

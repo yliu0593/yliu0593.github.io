@@ -5,16 +5,16 @@ type: "Projects"
 permalink: /projects/nnmf
 ---
 
-![Cover Photo](/images/comps.png){width="500px"}
-
+<!-- ![Cover Photo](/images/comps.png){width="500px"} -->
+<img src="/images/comps.png" alt="Cover photo" style="width:400px;"/>
 
 ## Motivation
 
 - Damage during X-ray diffraction (XRD) data collection can have a significant impact on the quality of the recovered protein structures. 
 
 
-![diffraction images](/images/diffraction.png){width="500px"}
-
+<!-- ![diffraction images](/images/diffraction.png){width="500px"} -->
+<img src="/images/diffraction.png" alt="diffraction images" style="width:400px;"/>
 
 # Method
 
@@ -25,5 +25,5 @@ permalink: /projects/nnmf
 
 - X-ray induced damage at cryogenic temperatures is sequential rather than stochastic
 
-![the components](/images/comps.png){width="500px"}
-
+<!-- ![the components](/images/comps.png){width="500px"} -->
+<img src="/images/comps.png" alt="the components" style="width:400px;"/>
