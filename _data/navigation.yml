@@ -7,7 +7,7 @@ main:
     url: /projects/
 
   - title: "Research"
-  url: /research_summary/
+    url: /research/
 
   # - title: "Hobbies"
   #   url: /hobbies/
