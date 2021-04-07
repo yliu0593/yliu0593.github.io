@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Youlin Liu's personal page"
+title                    : "Youlin Liu, PhD Candidate in Analytical Chemistry"
 title_separator          : "-"
 name                     : &name "Youlin Liu"
 description              : &description "PhD in Analytical Chemistry at Purdue University"
@@ -177,6 +177,9 @@ kramdown:
 # Collections
 collections:
   projects:
+    output: true
+    permalink: /:collection/:path/
+  research:
     output: true
     permalink: /:collection/:path/
   teaching:
