@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "Projects"
+title: "Personal Projects"
 permalink: /projects/
 author_profile: true
 ---
-
-Below are my main projects (contains unpublished contents therefore some are not in detail)
 
 
 {% if author.googlescholar %}
